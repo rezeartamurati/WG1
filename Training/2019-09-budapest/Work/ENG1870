@@ -1,0 +1,73 @@
+ersion="1.0" encoding="UTF-8"?>
+<?xml-model href="eltec-0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="eltec-0.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENG1870" xml:lang="en" >
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title : ELTeC edition</title>
+            <author>Marryat, Frederick (1830-1892)</author>
+            <respStmt>
+               <resp>encoded by</resp>
+               <name>Rezearta Murati</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">34567</measure>
+         </extent>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalsource"> The Project Gutenberg edition of Round the world in hipbath</bibl>
+           <ref target="http://gutenberg.org/2345"></ref>
+            <bibl type=first edition   Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc n="eltec-0">
+         <p/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textDesc>
+            <authorGender xmlns="http://distantreading.net/eltec/ns" key="male"/>
+            <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
+            <canonicity xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
+            <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T2"/>
+         </textDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019.09.23">File created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p></p>
+      </body>
+   </text>
+</TEI><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+      </body>ENG1870
+  </text>
+</TEI>
